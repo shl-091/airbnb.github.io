@@ -1,0 +1,425 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "name": "Woodford Green"
+        },
+        {
+            "id": 2,
+            "name": "Romford"
+        },
+        {
+            "id": 3,
+            "name": "Hornchurch"
+        },
+        {
+            "id": 4,
+            "name": "Upminster"
+        },
+        {
+            "id": 5,
+            "name": "Ilford"
+        },
+        {
+            "id": 6,
+            "name": "Dagenham"
+        },
+        {
+            "id": 7,
+            "name": "Rainham"
+        },
+        {
+            "id": 8,
+            "name": "Barking"
+        },
+        {
+            "id": 9,
+            "name": "Belvedere"
+        },
+        {
+            "id": 10,
+            "name": "Welling"
+        },
+        {
+            "id": 11,
+            "name": "Erith"
+        },
+        {
+            "id": 12,
+            "name": "Bexleyheath"
+        },
+        {
+            "id": 13,
+            "name": "Bexley"
+        },
+        {
+            "id": 14,
+            "name": "Sidcup"
+        },
+        {
+            "id": 15,
+            "name": "Chislehurst"
+        },
+        {
+            "id": 16,
+            "name": "Biggin Hill"
+        },
+        {
+            "id": 17,
+            "name": "West Wickham"
+        },
+        {
+            "id": 18,
+            "name": "Orpingtom"
+        },
+        {
+            "id": 19,
+            "name": "Kenley"
+        },
+        {
+            "id": 20,
+            "name": "Purley"
+        },
+        {
+            "id": 21,
+            "name": "New Malden"
+        },
+        {
+            "id": 22,
+            "name": "Morden"
+        },
+        {
+            "id": 23,
+            "name": "Sutton"
+        },
+        {
+            "id": 24,
+            "name": "Hampton"
+        },
+        {
+            "id": 25,
+            "name": "Hounslow"
+        },
+        {
+            "id": 26,
+            "name": "Harrow"
+        },
+        {
+            "id": 27,
+            "name": "Pinner"
+        },
+        {
+            "id": 28,
+            "name": "Stanmore"
+        },
+        {
+            "id": 29,
+            "name": "Chipping Barnet"
+        },
+        {
+            "id": 30,
+            "name": "Wembley"
+        },
+        {
+            "id": 31,
+            "name": "Northolt"
+        },
+        {
+            "id": 32,
+            "name": "Hayes"
+        },
+        {
+            "id": 33,
+            "name": "Uxbridge"
+        },
+        {
+            "id": 34,
+            "name": "West Drayton"
+        },
+        {
+            "id": 35,
+            "name": "Croydon"
+        },
+        {
+            "id": 36,
+            "name": "Chessington"
+        },
+        {
+            "id": 37,
+            "name": "Super-host"
+        },
+        {
+            "id": 38,
+            "name": "Close-to-Metro"
+        },
+        {
+            "id": 39,
+            "name": "Clean"
+        },
+        {
+            "id": 40,
+            "name": "Whole place"
+        },
+        {
+            "id": 41,
+            "name": "Unsafe"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 37,
+            "value": 275
+        },
+        {
+            "source": 1,
+            "target": 41,
+            "value": 275
+        },
+        {
+            "source": 2,
+            "target": 38,
+            "value": 512
+        },
+        {
+            "source": 2,
+            "target": 37,
+            "value": 512
+        },
+        {
+            "source": 3,
+            "target": 38,
+            "value": 406
+        },
+        {
+            "source": 3,
+            "target": 39,
+            "value": 406
+        },
+        {
+            "source": 4,
+            "target": 37,
+            "value": 640
+        },
+        {
+            "source": 5,
+            "target": 40,
+            "value": 469
+        },
+        {
+            "source": 6,
+            "target": 38,
+            "value": 404
+        },
+        {
+            "source": 6,
+            "target": 39,
+            "value": 404
+        },
+        {
+            "source": 7,
+            "target": 37,
+            "value": 669
+        },
+        {
+            "source": 7,
+            "target": 41,
+            "value": 669
+        },
+        {
+            "source": 8,
+            "target": 40,
+            "value": 468
+        },
+        {
+            "source": 9,
+            "target": 39,
+            "value": 467
+        },
+        {
+            "source": 10,
+            "target": 38,
+            "value": 746
+        },
+        {
+            "source": 11,
+            "target": 38,
+            "value": 329
+        },
+        {
+            "source": 11,
+            "target": 37,
+            "value": 329
+        },
+        {
+            "source": 12,
+            "target": 40,
+            "value": 466
+        },
+        {
+            "source": 12,
+            "target": 41,
+            "value": 466
+        },
+        {
+            "source": 13,
+            "target": 38,
+            "value": 503
+        },
+        {
+            "source": 14,
+            "target": 37,
+            "value": 733
+        },
+        {
+            "source": 15,
+            "target": 37,
+            "value": 376
+        },
+        {
+            "source": 15,
+            "target": 39,
+            "value": 376
+        },
+        {
+            "source": 16,
+            "target": 39,
+            "value": 333
+        },
+        {
+            "source": 17,
+            "target": 40,
+            "value": 315
+        },
+        {
+            "source": 18,
+            "target": 39,
+            "value": 648
+        },
+        {
+            "source": 19,
+            "target": 37,
+            "value": 237
+        },
+        {
+            "source": 19,
+            "target": 41,
+            "value": 237
+        },
+        {
+            "source": 20,
+            "target": 38,
+            "value": 453
+        },
+        {
+            "source": 20,
+            "target": 37,
+            "value": 453
+        },
+        {
+            "source": 21,
+            "target": 39,
+            "value": 231
+        },
+        {
+            "source": 22,
+            "target": 40,
+            "value": 315
+        },
+        {
+            "source": 22,
+            "target": 37,
+            "value": 315
+        },
+        {
+            "source": 23,
+            "target": 40,
+            "value": 465
+        },
+        {
+            "source": 24,
+            "target": 40,
+            "value": 284
+        },
+        {
+            "source": 24,
+            "target": 41,
+            "value": 284
+        },
+        {
+            "source": 25,
+            "target": 40,
+            "value": 301
+        },
+        {
+            "source": 26,
+            "target": 39,
+            "value": 442
+        },
+        {
+            "source": 27,
+            "target": 39,
+            "value": 325
+        },
+        {
+            "source": 27,
+            "target": 41,
+            "value": 325
+        },
+        {
+            "source": 28,
+            "target": 39,
+            "value": 242
+        },
+        {
+            "source": 29,
+            "target": 37,
+            "value": 200
+        },
+        {
+            "source": 30,
+            "target": 37,
+            "value": 309
+        },
+        {
+            "source": 31,
+            "target": 37,
+            "value": 398
+        },
+        {
+            "source": 31,
+            "target": 39,
+            "value": 398
+        },
+        {
+            "source": 32,
+            "target": 39,
+            "value": 673
+        },
+        {
+            "source": 33,
+            "target": 38,
+            "value": 589
+        },
+        {
+            "source": 34,
+            "target": 39,
+            "value": 480
+        },
+        {
+            "source": 35,
+            "target": 38,
+            "value": 398
+        },
+        {
+            "source": 35,
+            "target": 41,
+            "value": 398
+        },
+        {
+            "source": 36,
+            "target": 40,
+            "value": 307
+        }
+    ]
+}

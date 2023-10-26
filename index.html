@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Final Project</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <h1 class="hero-title">Wanna Travel to London? You Must See This!</h1>
+      <h2 class="hero-author">By Shentong Li</h2>
+      <p class="intro-text">
+        The project aim to visualize the data to gain insights into the Airbnb market in London. 
+        By comparing prices and ratings across different regions in London, I can identify 
+        variations in pricing and quality of accommodations, allowing users to make informed 
+        decisions. Exploring overall guest satisfaction ratings can reveal the living place 
+        with the highest and lowest satisfaction levels, providing valuable information for 
+        potential guests. 
+      <p id="myParagraph">Please wait 10 seconds for visualizations to show up!</p>
+      </p>
+    </section>
+
+    <!-- chart 1 -->
+    <section>
+      <h1 class="section-title">Average Satisfaction Score Distribution</h1>
+      <p class="section-text">
+        In my own experience, a good Airbnb experience consists of many things: 
+        smooth and comfortable communication with the host; the room should be 
+        neat and tidy; privacy can be guaranteed. A good stay can make the whole 
+        trip more enjoyable. So I selected the top accommodation areas in London 
+        (the red regions, which are usually close to the city centre) and plotted 
+        their average ratings on the London map. The darker red indicates a higher score, 
+        whereas the lighter red indicates a lower score.
+      </p>
+    </section>
+    <div class="chart-holder">
+      <div id="map-container"></div>
+      <div class="tooltip"></div>
+    </div>
+    <p class="section-text">
+      Try clicking buttons under the map!
+    </p>
+
+    <!-- chart 2 -->
+    <section>
+      <h1 class="section-title">Price VS. Satisfaction</h1>
+      <p class="section-text">
+        In addition to satisfaction, I will also care about the price of the
+        accommodation. When I'm planning my trip, I only focus on houses that 
+        are within my budget. So here is the scatter plot of price and satisfaction 
+        score.
+      </p>
+    </section>
+    <div class="chart-holder">
+      <div id="graph-container"></div>
+      
+    </div>
+    <p class="section-text">
+      There are buttons under the graph. Click on your budget range to see the 
+      accommodation in the specified interval!
+    </p>
+    <!-- chart 3 -->
+    <section>
+      <h1 class="section-title">Advantages of Different Accommodation Areas</h1>
+      <p class="section-text">
+        London is a big and bustling city, living in different places will have 
+        different advantages and disadvantages. For example, living in the city 
+        center can enjoy convenient transportation, but at the same time may not 
+        be too safe. If you live far from the city, you may live in a larger place 
+        and have better privacy, but you may need to take a taxi to visit the 
+        attractions, so there will be an extra commuting cost. The following network 
+        shows the pros and cons of different accommodation areas. Additionally, the 
+        thickness of the lines represents the average price of that region. The thicker
+        the line, the higher the price.
+        <br></br>
+        <p class="good-points">Benefits:</p>
+        Super-host: The host received widespread praise
+        <br></br>
+        Clean: The house is neat and clean
+        <br></br>
+        Close-to-Metro: convenient transportation
+        <br></br>
+        Whole-place: Instead of living with a landlord, you have temporary use 
+        of the entire house
+        <br></br>
+        <p class="bad-points">Disadvantages:</p>
+        Unsafe: The area is not safe and there is a common crime (such as robbery)
+      </p>
+    </section>
+    <div class="chart-holder">
+      <div id="network-container"></div>
+
+    </div>
+    <p class="section-text">
+      Try zooming in if you cannot see specific areas clearly! Also put your mouse on specific item you are curious about.
+      <br></br>
+      After viewing the visualization of Airbnb accommodations in the London area above, I hope it will be helpful for your trip!
+    </p>
+    <script src="script.js"></script>
+    <script src="graph.js"></script>
+    <script src="network.js"></script>
+  </body>
+</html>

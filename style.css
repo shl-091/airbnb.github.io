@@ -1,0 +1,63 @@
+:root {
+    --text-width: 900px;
+}
+
+section {
+    width: var(--text-width);
+    margin: auto;
+    font-family: Kefa;
+}
+
+.hero-title {
+    font-size: 6rem;
+    text-align: center;
+}
+
+.hero-author {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.751);
+    text-align: center;
+}
+
+.chart-holder {
+    text-align: center;
+}
+
+.section-text {
+    width: var(--text-width);
+    margin: auto;
+    font-family: Kefa;
+    padding-top: 20px;
+}
+
+
+
+.good-points {
+    font-size:1.25rem;
+    font-family:Georgia;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.bad-points {
+    font-size:1.25rem;
+    font-family: Georgia;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#myParagraph {
+    color: red;
+    font-family: Kefa;
+  }
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    font: 12px Kefa;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none;
+  }
